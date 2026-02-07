@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main\main</Filter>
+    </ClCompile>
+    <ClCompile Include="user_interface.cpp">
+      <Filter>main\main</Filter>
+    </ClCompile>
+    <ClCompile Include="elements.cpp">
+      <Filter>Includes\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>main\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="get_player.hpp">
+      <Filter>main\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.hpp">
+      <Filter>main\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>main\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>main\add</Filter>
+    </ClInclude>
+    <ClInclude Include="exploit.h">
+      <Filter>main\add</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger.hpp">
+      <Filter>main\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Includes\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Includes\xor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>Includes\ImGui\glf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>Includes\ImGui\glf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\eglew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glxew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Includes\ImGui\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\wglew.h">
+      <Filter>Includes\ImGui\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="skStr.h" />
+    <ClInclude Include="color.hpp">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="user_interface.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="byte_array.h">
+      <Filter>main\main</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="xxtring.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="elements.h">
+      <Filter>Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Includes\ImGui\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="col.h" />
+    <ClInclude Include="utils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{6B697BDC-EFA1-41BA-9BBB-4D687D253A9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{A0A26BE0-34B4-47A9-AC3B-CC4A43405D24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui">
+      <UniqueIdentifier>{D6EACE36-55C0-47C5-A487-049566073014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\aim">
+      <UniqueIdentifier>{52F820D2-7454-4E9E-B694-CE02C2BDD723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\esp">
+      <UniqueIdentifier>{737B97F0-7B89-4A4D-AD05-EAA41FD78641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\main">
+      <UniqueIdentifier>{CEA238BB-ADD6-4726-BDE6-E9C116E7882A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\add">
+      <UniqueIdentifier>{2BA7A031-3004-4368-B320-D086EF282AC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\vector">
+      <UniqueIdentifier>{70A196CE-709A-4338-B817-BEF173EFAEE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\xor">
+      <UniqueIdentifier>{DA79136E-53CD-40F5-B9E0-8DF8D896D0D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui\glf">
+      <UniqueIdentifier>{C0108148-F797-4789-AC06-A6D8909568CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui\gl">
+      <UniqueIdentifier>{F407EEDE-2381-442C-800C-448710875025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ImGui\Image">
+      <UniqueIdentifier>{47E7DFA7-009D-408D-BDF0-225DEEE95892}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FiveM External.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\channels4_profile-removebg-preview.ico" />
+  </ItemGroup>
+</Project>
